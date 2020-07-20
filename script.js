@@ -17,7 +17,7 @@ function updateCountdown() {
 
 //Created an alert for the user just a basic overview of the game, time and penalties 
 
-alert("The correct answer will be displayedin red. You have 60 seconds to answer all questions. For every incorrect question your time will reduce by 3 seconds")
+alert("The correct answer will be displayed in red. You have 60 seconds to answer all questions. For every incorrect question your time will reduce by 3 seconds")
 
 //Created and assigned variables for HTML ID elements 
 
