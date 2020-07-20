@@ -1,3 +1,20 @@
+//create function and variables for timer 
+
+const startingMinutes = 1; 
+let time = startingMinutes * 60; 
+
+const countdownEl = document.getElementById('countdown'); 
+
+setInterval(updateCountdown, 1000); 
+
+function updateCountdown() {
+    const minutes = Math.floor(time / 60); 
+    let seconds = time / 60;   
+
+    countdownEl.innerHTML; 
+    time--; 
+ }
+
 //Created an alert for the user just a basic overview of the game, time and penalties 
 
 alert("The correct answer will be displayedin red. You have 60 seconds to answer all questions. For every incorrect question your time will reduce by 3 seconds")
